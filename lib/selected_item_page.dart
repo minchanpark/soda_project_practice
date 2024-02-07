@@ -4,13 +4,15 @@ import 'my_app_state.dart';
 import 'trip_detail_page.dart';
 
 class SelectedItemsPage extends StatelessWidget {
+  const SelectedItemsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     final myAppState = Provider.of<MyAppState>(context); // 수정
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('View Trips'),
+        title: const Text('View Trips'),
       ),
       body: ListView.builder(
         itemCount: myAppState.trips.length,
