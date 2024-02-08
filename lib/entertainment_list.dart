@@ -13,7 +13,7 @@ class EntertainmentList extends StatelessWidget {
   Widget build(BuildContext context) {
     final FireStoreServiceEntertainment firestoreService =
         FireStoreServiceEntertainment();
-    Trip appState = Provider.of<Trip>(context);
+    MyAppState appState = Provider.of<MyAppState>(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -30,7 +30,7 @@ class EntertainmentList extends StatelessWidget {
                     child: const Text('취소'),
                   ),
                   TextButton(
-                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context)=>SelectedItemsPage())),
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context)=>const SelectedItemsPage())),
                     child: const Text('저장'),
                   ),
                 ],

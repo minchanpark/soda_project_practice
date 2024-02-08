@@ -13,7 +13,8 @@ class ResturantListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final FirestoreServiseResturant firestoreService =
         FirestoreServiseResturant();
-    Trip appState = Provider.of<Trip>(context);
+    MyAppState appState = Provider.of<MyAppState>(context);
+    
 
     return Scaffold(
       appBar: AppBar(

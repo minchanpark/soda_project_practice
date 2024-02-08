@@ -12,7 +12,7 @@ class CafeList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final FirestoreServiseCafes firestoreService = FirestoreServiseCafes();
-    Trip appState = Provider.of<Trip>(context);
+    MyAppState appState = Provider.of<MyAppState>(context);
 
     return Scaffold(
       appBar: AppBar(

@@ -1,17 +1,27 @@
 import 'package:flutter/material.dart';
-
+import 'package:soda_project_practice/home_page.dart';
 import 'trip.dart';
 
-class TripDetailsPage extends StatelessWidget {
+class ViewTripPage extends StatelessWidget {
   final Trip trip;
 
-  const TripDetailsPage({Key? key, required this.trip}) : super(key: key);
+  const ViewTripPage({Key? key, required this.trip}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(trip.name),
+        actions: [
+          TextButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (constext) => MyHomePage()));
+              },
+              child: const Text('go to home'))
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
