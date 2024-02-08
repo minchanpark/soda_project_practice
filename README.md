@@ -2,15 +2,11 @@
 
 This repository is for practicing the functionalities needed for the Soda project.
 
-## Getting Started
+## Repository discription
 
-This project is a starting point for a Flutter application.
+I will explain this repository by ench class. 
 
-A few resources to get you started if this is your first Flutter project:
+### First, main.dart
+This page serves as the entry point to the program. It sets up the scope of the provider from 'myappstate.dart' and enables the use of Firebase.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Second, home_page.dart
