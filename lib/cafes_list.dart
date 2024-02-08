@@ -71,7 +71,7 @@ class CafeList extends StatelessWidget {
                           onPressed: () {
                             appState.addCafe(name);
                           },
-                          icon: Icon(Icons.add)),
+                          icon: const Icon(Icons.add)),
                     ],
                   ),
                 );

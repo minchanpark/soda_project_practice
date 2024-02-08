@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:provider/provider.dart';
-import 'package:soda_project_practice/trip.dart';
+import 'package:soda_project_practice/Trip.dart';
 import 'package:soda_project_practice/cafes_list.dart';
 import 'package:soda_project_practice/my_app_state.dart';
 import 'firestore.dart';
