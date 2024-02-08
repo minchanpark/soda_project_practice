@@ -1,6 +1,6 @@
 # soda_project_practice
 
-A new Flutter project.
+This repository is for practicing the functionalities needed for the Soda project.
 
 ## Getting Started
 
